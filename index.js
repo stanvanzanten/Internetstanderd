@@ -77,6 +77,7 @@ function sendTextMessage(sender, text) {
 			recipient: {id:sender},
 			message: messageData,
 		}
+		//sendTextMessage(MessengerBot, "Hallo, wat kan ik voor je doen?");
 	}, function(error, response, body) {
 		if (error) {
 			console.log('Error sending messages: ', error)
